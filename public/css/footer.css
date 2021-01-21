@@ -1,0 +1,22 @@
+.footer-link{
+    padding-bottom: 10px;
+}
+
+.lang-sw .footer-link:first-child{
+    padding-right: 4px;
+    border-right: 1px solid white;
+}
+
+.fl:not(:first-of-type){
+    margin-left: 5px;
+}
+
+.fl img{
+    width: 40px;
+}
+
+.footerLinkActive{
+    color: #F23F18;
+}
+
+

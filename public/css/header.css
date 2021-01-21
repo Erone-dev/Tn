@@ -1,0 +1,52 @@
+.hl{
+    border-bottom: 1px solid #6C757D;
+}
+
+.hl:hover{
+    border-color: #343a40;
+}
+
+.header .navbar-nav .nav-item .headLinkActive{
+    color: #F23F18;
+    border-color: #F23F18;
+}
+
+.btn-outline-info{
+    border-color:  #009CBE;
+    color:  #009CBE;
+}
+
+.btn-outline-info:hover{
+    color: white;
+    border-color:  #009CBE;
+    background-color: #009CBE;
+}
+
+.more.accordion-button{
+    border: none;
+}
+
+.more.accordion-button:focus{
+    border-color: unset;
+    box-shadow: unset;
+}
+
+.more.accordion-button:not(.collapsed){
+    background-color: unset;
+}
+
+.navbar-nav .nav-item .more.accordion-button::after{
+    background-image: url('/images/service/arrow.svg');
+    width: 1rem;
+    height: 1rem;
+    background-size: 1rem;
+    margin-left: 0.4rem;
+}
+
+.navbar-nav .nav-item .more.accordion-button:not(.collapsed)::after{
+    background-image: url('/images/service/arrow1.svg');
+}
+
+.nav-item{
+    padding: 0 .5rem;
+}
